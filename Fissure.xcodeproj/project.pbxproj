@@ -731,7 +731,7 @@
 				ORGANIZATIONNAME = fieldman.org;
 				TargetAttributes = {
 					35DBD25A1904255C00116F8B = {
-						DevelopmentTeam = 887CVK63XR;
+						ProvisioningStyle = Manual;
 					};
 					35DBD2751904255C00116F8B = {
 						TestTargetID = 35DBD25A1904255C00116F8B;
@@ -1024,14 +1024,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 887CVK63XR;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fissure/Fissure-Prefix.pch";
 				INFOPLIST_FILE = "Fissure/Fissure-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_CFLAGS = "-DEXDEBUGENABLED";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.Fissure;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.particle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1053,9 +1053,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_CFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.Fissure;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.particle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "5f00e40b-4950-4903-b58c-89677e4bdfbe";
+				PROVISIONING_PROFILE_SPECIFIER = particle;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
