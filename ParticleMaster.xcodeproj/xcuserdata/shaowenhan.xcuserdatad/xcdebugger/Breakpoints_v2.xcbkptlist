@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0B2D1F39-7273-4AF7-BA06-C54BF9194C24"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42FD0735-8A1F-4B7A-A910-223E28EBC525"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fissure/Classes/Controllers/GameEngineViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "-init"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "42FD0735-8A1F-4B7A-A910-223E28EBC525 - 13cf463704acc5d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameEngineViewController init]"
+                  moduleName = "Fissure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shaowenhan/yibeijihua/fissure/Fissure/Classes/Controllers/GameEngineViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
+                  offsetFromSymbolStart = "3744">
+               </Location>
+               <Location
+                  uuid = "42FD0735-8A1F-4B7A-A910-223E28EBC525 - 13cf463704acc5d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameEngineViewController init]"
+                  moduleName = "Fissure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shaowenhan/yibeijihua/fissure/Fissure/Classes/Controllers/GameEngineViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
+                  offsetFromSymbolStart = "3740">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "34EA3139-A389-4EB5-9EC0-C542405B7B4B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fissure/Classes/Controllers/GameEngineViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "-init"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "34EA3139-A389-4EB5-9EC0-C542405B7B4B - 13cf463704acc431"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameEngineViewController init]"
+                  moduleName = "Fissure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shaowenhan/yibeijihua/fissure/Fissure/Classes/Controllers/GameEngineViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "3868">
+               </Location>
+               <Location
+                  uuid = "34EA3139-A389-4EB5-9EC0-C542405B7B4B - 13cf463704acc431"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameEngineViewController init]"
+                  moduleName = "Fissure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shaowenhan/yibeijihua/fissure/Fissure/Classes/Controllers/GameEngineViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "3752">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

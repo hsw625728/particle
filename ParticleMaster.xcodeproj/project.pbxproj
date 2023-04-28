@@ -271,7 +271,7 @@
 		35D7C7B2190EF4F4006CEFA8 /* LevelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelManager.m; sourceTree = "<group>"; };
 		35D7C7B4190FF3AF006CEFA8 /* icon_restart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_restart@2x.png"; sourceTree = "<group>"; };
 		35D7C7B5190FF3AF006CEFA8 /* icon_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_menu@2x.png"; sourceTree = "<group>"; };
-		35DBD25B1904255C00116F8B /* Fissure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fissure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DBD25B1904255C00116F8B /* ParticleMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticleMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35DBD25E1904255C00116F8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		35DBD2601904255C00116F8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		35DBD2621904255C00116F8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -484,7 +484,7 @@
 		35DBD25C1904255C00116F8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35DBD25B1904255C00116F8B /* Fissure.app */,
+				35DBD25B1904255C00116F8B /* ParticleMaster.app */,
 				35DBD2761904255C00116F8B /* FissureTests.xctest */,
 			);
 			name = Products;
@@ -700,7 +700,7 @@
 			);
 			name = Fissure;
 			productName = Fissure;
-			productReference = 35DBD25B1904255C00116F8B /* Fissure.app */;
+			productReference = 35DBD25B1904255C00116F8B /* ParticleMaster.app */;
 			productType = "com.apple.product-type.application";
 		};
 		35DBD2751904255C00116F8B /* FissureTests */ = {
@@ -738,11 +738,12 @@
 					};
 				};
 			};
-			buildConfigurationList = 35DBD2561904255C00116F8B /* Build configuration list for PBXProject "Fissure" */;
+			buildConfigurationList = 35DBD2561904255C00116F8B /* Build configuration list for PBXProject "ParticleMaster" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 35DBD2521904255C00116F8B;
@@ -979,7 +980,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -1011,7 +1012,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1021,18 +1022,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = 887CVK63XR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fissure/Fissure-Prefix.pch";
 				INFOPLIST_FILE = "Fissure/Fissure-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				INFOPLIST_KEY_CFBundleDisplayName = ParticleMaster;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0.0;
 				OTHER_CFLAGS = "-DEXDEBUGENABLED";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.Fissure;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.FissureEn;
+				PRODUCT_NAME = ParticleMaster;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -1043,19 +1049,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = 887CVK63XR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fissure/Fissure-Prefix.pch";
 				INFOPLIST_FILE = "Fissure/Fissure-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				INFOPLIST_KEY_CFBundleDisplayName = ParticleMaster;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0.0;
 				OTHER_CFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.Fissure;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.FissureEn;
+				PRODUCT_NAME = ParticleMaster;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1104,7 +1117,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		35DBD2561904255C00116F8B /* Build configuration list for PBXProject "Fissure" */ = {
+		35DBD2561904255C00116F8B /* Build configuration list for PBXProject "ParticleMaster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				35DBD2851904255C00116F8B /* Debug */,
